@@ -6,6 +6,16 @@
 <link href="../css/style.css" rel="stylesheet">
 </head>
 <body>
+	<script
+		src="https://unpkg.com/vanilla-back-to-top@7.2.1/dist/vanilla-back-to-top.min.js"></script>
+	<script>
+		addBackToTop({
+			diameter : 56,
+			backgroundColor : '#007B66',
+			textColor : '#fff'
+		})
+	</script>
+	<!-- 문서 맨 위로 올라가는 버튼 -->
 	<header>
 		<div class="nav">
 			<ul>
@@ -35,14 +45,28 @@
 	</header>
 <!-- 템플릿 -->
 
-	</header>
-	<section id="canvas_section">
-		<canvas id="canvas" width="400" height="300">
-            Your browser doesn't support the HTML5 element canvas.
-        </canvas>
+<h1>캐릭터 소개</h1><br>
+<a>- 두두를 소개합니다.</a>
+	<section id="list">
+			<a href="#Primary_dodu">기본 캐릭터</a>
+			<br>
+			<!-- 기본캐릭터 내부링크 -->
+			<a href="#Major_dodu">학과 캐릭터</a>
+			<!-- 학과캐릭터 내부링크 -->
 	</section>
+	<li><a id="Primary_dodu">
+			<p style="text-align: center; max-width: 100%; height: auto;">
+				<img src="../images/primary_dodu.jpg" alt="기본 캐릭터" border="0"></img>
+			</p> <!-- 기본 캐릭터 이미지 -->
+	</a></li>
+	<br>
+	<li><a id="Major_dodu">
+			<p style="text-align: center; max-width: 100%; height: auto;">
+				<img src="../images/Major_dodu.jpg" alt="학과 캐릭터" border="0"></img>
+			</p> <!-- 학과 캐릭터 이미지 -->
+	</a></li>
 	<footer>
-		<br>
+		<br> <br>
 		<p>오픈소스 소프트웨어 팀 프로젝트</p>
 		<p>ⓒ 2021. 6team All Rights Reserved.</p>
 	</footer>
