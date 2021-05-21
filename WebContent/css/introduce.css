@@ -1,0 +1,25 @@
+@charset "EUC-KR";
+
+@import
+	url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap');
+
+h2 {
+	font-family: 'Do Hyeon', sans-serif;
+	font-size:30px;
+	margin: 0 0 0 10%;
+}
+
+#list {
+	font-family: 'Do Hyeon', sans-serif;
+	color: black;
+	font-size: 18px;
+	margin: 0 0 0 20%;
+}
+
+#description {
+	font-family: 'Do Hyeon', sans-serif;
+	font-size: 15px;
+	display: flex;
+	flex-direction:row-reverse;
+	margin: 0 20% 0 0;
+}
