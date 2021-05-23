@@ -25,7 +25,7 @@
 > 2. 부드러운 디자인의 검색창. 다른 유저의 배포 코드를 사용하였습니다.
 > 3. about Dodu: 두두가 어떤 캐릭터인지 소개하는 페이지입니다. 기본 캐릭터의 설명과 학과 캐릭터의 설명을 볼 수 있습니다.
 > 4. 스크롤을 내리면 back to top 버튼이 등장합니다. 버튼을 누르면 화면 최상단으로 이동합니다.
-> 5. 
+> 5. 캐릭터 소개 페이지 최하단에 다른 사이트로 페이지를 공유할 수 있는 공유 버튼을 삽입했습니다.
 > 6. 추가예정...
 > 7. 깃허브 호스팅 사용
 
@@ -34,6 +34,7 @@
 > [홈페이지 주소] (http어쩌구...)
 
 # References
-- 전체적인 레이아웃 참고: https://github.com/sunajung/final_project.git
-- back to top 버튼: https://github.com/vfeskov/vanilla-back-to-top.git
-- search 템플릿: https://github.com/joaovictornsv/search-bar.git
+- [전체적인 레이아웃 참고](https://github.com/sunajung/final_project.git)
+- [back to top 버튼](https://github.com/vfeskov/vanilla-back-to-top.git)
+- [search 템플릿](https://github.com/joaovictornsv/search-bar.git)
+- [html 공유 버튼](https://github.com/gschier/html-share-buttons.git)
