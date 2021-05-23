@@ -29,7 +29,7 @@
 > 깃허브 호스팅을 사용하였습니다. 데모 링크는 아래의 링크를 클릭.
 > [홈페이지 주소] (http어쩌구...)
 
-#References
+# References
 - 전체적인 레이아웃 참고: https://github.com/sunajung/final_project.git
 - back to top 버튼: https://github.com/vfeskov/vanilla-back-to-top.git
 - search 템플릿: https://github.com/joaovictornsv/search-bar.git
