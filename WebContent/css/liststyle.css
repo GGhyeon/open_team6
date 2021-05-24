@@ -20,10 +20,6 @@ div.wrapper {
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
 }
 
-th, td{
-  font-family: 'Do Hyeon', sans-serif;
-}
-
 header {
 	color: black;
 	background-color: white;
@@ -48,6 +44,10 @@ table th{
 
 table th:first-child{
   padding-left: 40px;
+}
+
+th, td{
+  font-family: 'Do Hyeon', sans-serif;
 }
 
 td{
