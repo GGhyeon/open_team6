@@ -8,6 +8,7 @@
 
 # 개발 환경
 > 사진 편집과 디자인 보완을 위해 adobe사에서 지원하는 무료 체험판 버전인 'Photoshop'과 'Dreamweaver'를 사용하였습니다.
+> 
 > github에서 만든 무료 웹 에디터 'Atom'을 사용하였습니다. 편의성을 위해 다른 유저들이 만든 atom package를 설치했습니다.
 > ### atom package 소개
 >  1. **emmet**
