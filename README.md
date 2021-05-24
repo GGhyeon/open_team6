@@ -31,7 +31,7 @@
 
 # 홈페이지 주소
 > 깃허브가 제공하는 정적 호스팅을 사용하였습니다. 데모 링크는 아래의 링크를 클릭.
-> [두두홈](https://bit.ly/2SirVAf)
+> [두두홈](https://bit.ly/3wzk8wN)
 
 # References
 - [전체적인 레이아웃 참고](https://github.com/sunajung/final_project.git)
