@@ -1,0 +1,67 @@
+@charset "EUC-KR";
+
+@import
+	url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap');
+
+h2 {
+	font-family: 'Do Hyeon', sans-serif;
+	font-size: 50px;
+	margin: 0 0 0 10%;
+}
+
+div.list {
+	text-align: center;
+	margin: 50px 0 50px 0;
+}
+
+#description {
+	font-family: 'Do Hyeon', sans-serif;
+	font-size: 15px;
+	display: flex;
+	flex-direction: row-reverse;
+	margin: 0 20% 0 0;
+}
+
+.share-btns {
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.share-btn {
+	display: inline-block;
+	color: #ffffff;
+	border: none;
+	padding: 0.1em 0.6em;
+	outline: none;
+	text-align: center;
+	font-size: 0.9em;
+	margin: 0 0.2em;
+}
+
+.share-btn:focus, .share-btn:hover {
+	text-decoration: none;
+	opacity: 0.8;
+}
+
+.share-btn:active {
+	color: #e2e2e2;
+}
+
+.share-btn.twitter {
+	background: #55acee;
+}
+
+.share-btn.facebook {
+	background: #3B5998;
+}
+
+.share-btn.blog {
+	background: #1ad00b;
+}
+
+.share-btn.email {
+	background: #444444;
+}
