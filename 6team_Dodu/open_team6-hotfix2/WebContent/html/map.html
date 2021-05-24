@@ -1,0 +1,163 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>CAMPUSMAP</title>
+<link href="mapstyle.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<header>
+		<div class="nav">
+			<ul>
+				<li><a href="introduce.html"><img src="About DODU.jpg" width="205" height="29" alt=""/></a></li>
+				<!-- 두두 소개 하이퍼링크  -->
+				<li><a href="list.html"><img src="Goods List.jpg" width="164" height="29" alt=""/></a></li>
+				<!-- 두두 상품 하이퍼링크  -->
+				<li><a href="map.html"><img src="Campus Map.jpg" width="206" height="29" alt=""/></a></li>
+			</ul> <!-- 캠퍼스 지도 하이퍼링크  -->
+	</div> <!-- 카테고리(두두소개/상품목록/캠퍼스 지도)  -->
+		
+		<div>
+			<h1>
+				<td width="300" height="80" align="left" valign="bottom">
+			  <a href="main.html">
+				  <img src="logo.jpg" width="300"
+						height="100" border="0">
+				  </a></td> <!-- DODUHOME 로고  -->
+			</h1>
+		</div>
+		
+		<div class="wrapper">
+			<input type="text" placeholder="Search...">
+			<button>🔍</button>
+		</div>
+	
+		<section id="canvas_section">
+			<canvas id="canvas" margin="0" width="1280" height="5">
+            Your browser doesn't support the HTML5 element canvas.
+        	</canvas>
+		</section>
+	
+	</header>
+	
+	
+	<div align = "center">
+		<div class = "text">
+			<div class = "text_title">
+				<h1>오시는 길(Campus Map) </h1><br>
+				<hr width=80%; color="#70C043">
+					<h2>[판매처]</h2>
+					<p>
+						<h3>대구대학교 경산캠퍼스 성산홀 본관 2층 특별사업팀</h3>
+						<p>
+							<h4>운영시간 : 월 ~ 금 AM 09:00 - PM 17:00(법정공휴일 제외)</h4>
+						</p>
+					</p>
+			</div>
+		</div>
+	
+		<!-- * 카카오맵 성산홀(중앙도서관) -->
+		<!-- * 카카오맵 - 지도퍼가기 -->
+		<!-- 1. 지도 노드 -->
+		<div id="daumRoughmapContainer1621630712906" class="root_daum_roughmap root_daum_roughmap_landing">
+		</div>
+
+		<!--2. 설치 스크립트* 지도 퍼가기 서비스를 2개 이상 넣을 경우, 설치 스크립트는 하나만 삽입합니다. -->
+		<script charset="UTF-8" class="daum_roughmap_loader_script" src="https://ssl.daumcdn.net/dmaps/map_js_init/roughmapLoader.js"></script>
+
+		<!-- 3. 실행 스크립트 -->
+		<script charset="UTF-8">
+		new daum.roughmap.Lander({
+			"timestamp" : "1621630712906",
+			"key" : "25vh8",
+			"mapWidth" : "800",
+			"mapHeight" : "650"
+		}).render();
+		</script>
+	</div>
+	
+	
+	<div align = "center">
+		<div class = "text_gyeongsan">
+			<br>
+			<h2>[대구대학교 경산캠퍼스]</h2>
+				<p>
+					<h3>(38453) 경상북도 경산시 진량읍 내리리 산 20</h3>
+				</p>
+		</div>
+		
+		<!-- * 카카오맵 - 지도퍼가기 -->
+		<!-- 1. 지도 노드 -->
+		<div id="daumRoughmapContainer1621633400533" class="root_daum_roughmap root_daum_roughmap_landing">
+		</div>
+
+		<!--2. 설치 스크립트
+		* 지도 퍼가기 서비스를 2개 이상 넣을 경우, 설치 스크립트는 하나만 삽입합니다.-->
+		<script charset="UTF-8" class="daum_roughmap_loader_script" src="https://ssl.daumcdn.net/dmaps/map_js_init/roughmapLoader.js"></script>
+
+		<!-- 3. 실행 스크립트 -->
+		<script charset="UTF-8">
+		new daum.roughmap.Lander({
+			"timestamp" : "1621633400533",
+			"key" : "25vhb",
+			"mapWidth" : "800",
+			"mapHeight" : "650"
+		}).render();
+		</script>
+	</div>
+
+	<hr width=80%; color="#70C043">
+	<section id="G_traffic">
+		<div><p>
+			- 시내버스 : 808(대구대방면), 814, 818(주말 제외 교내 운행), 818-1, 840, 급행5 버스 탑승</p><p>
+			- 지하철 1호선 : 안심역 하차(4번 출구) → 808(대구대방면), 814, 818(주말 제외 교내 운행), 818-1, 급행5 버스 탑승</p><p>
+			- 지하철 2호선 : 영남대역 하차(4번 출구) → 840 버스 탑승</p><p>
+			- 기차 : 하양역 하차 → 808(대구대방면), 814, 818(주말 제외 교내 운행), 818-1, 840, 급행5 버스 탑승</p></div>
+	</section>
+
+	<br>
+	<div align="center">
+		<div class="text_Daemyeong">
+			<h2>[대구대학교 대명캠퍼스]</h2>
+				<p>
+					<h3>(42400) 대구광역시 남구 대명동 2288</h3>
+				</p>
+		</div>
+		<!-- * 카카오맵 - 지도퍼가기 -->
+		<!-- 1. 지도 노드 -->
+		<div id="daumRoughmapContainer1621635552356" class="root_daum_roughmap root_daum_roughmap_landing"></div>
+
+		<!-- 2. 설치 스크립트
+		* 지도 퍼가기 서비스를 2개 이상 넣을 경우, 설치 스크립트는 하나만 삽입합니다. -->
+		<script charset="UTF-8" class="daum_roughmap_loader_script" src="https://ssl.daumcdn.net/dmaps/map_js_init/roughmapLoader.js"></script>
+
+		<!-- 3. 실행 스크립트 -->
+		<script charset="UTF-8">
+			new daum.roughmap.Lander({
+				"timestamp" : "1621635552356",
+				"key" : "25vhe",
+				"mapWidth" : "800",
+				"mapHeight" : "650"
+			}).render();
+		</script>
+	</div>
+
+	<hr width=80%; color="#70C043">
+		<section id="D_traffic">
+			<div><p>
+				- 시내버스 : 대명시장방면(509, 650, 706, 805, 836, 달서4, 순환2-1), 구남보건고등학교 방면(618, 650, 706, 805, 808, 836, 달서4) 버스를 이용 → 대명동 대구대학교 하차</p><p>
+				- 지하철 2호선 : 반고개역 하차(2번 출구) → 도보 13분</p><p>
+				- 지하철 3호선 : 남산역 하차(2번 출구) → 도보 14분</p><p>
+				- 지하철 2, 3호선 : 청라언덕역 하차(4번 출구) → 도보 18분</p></div>
+		</section>
+	<br> <br>
+
+	<footer>
+		<center>
+			<br> <br>
+				<p>오픈소스 소프트웨어 팀 프로젝트</p>
+				<p>ⓒ 2021. 6team All Rights Reserved.</p>
+		</center>
+	</footer>
+</body>
+</html>
