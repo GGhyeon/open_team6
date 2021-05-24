@@ -55,6 +55,17 @@ div.wrapper {
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
 }
 
+#canvas_section {
+	display: block;
+}
+
+#canvas {
+	background-color: green;
+	Leftmargin: 0;
+	border: thin inset #aaaaaa;
+}
+
+
 input {
   background-color:transparent;
   outline: none;
