@@ -7,6 +7,13 @@
   list-style: none;
 }
 
+@font-face {
+    font-family: 'CookieRunOTF-Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.0/CookieRunOTF-Bold00.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 div.wrapper {
   display: flex;
   align-items: center;
@@ -20,6 +27,10 @@ div.wrapper {
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
 }
 
+th, td{
+  font-family: 'CookieRunOTF-Bold';
+}
+
 header {
 	color: black;
 	background-color: white;
@@ -30,8 +41,8 @@ table{
   border-bottom: 2px solid lightgreen;
   border-collapse: collapse;
   text-align: center;
-  width: 80%;
-  margin-left: 10%;
+  width: 100%;
+  margin: 0px;
   padding: 0px;
   text-decoration: none;
 }
@@ -46,12 +57,8 @@ table th:first-child{
   padding-left: 40px;
 }
 
-th, td{
-  font-family: 'Do Hyeon', sans-serif;
-}
-
 td{
-  padding: 40px 7px;
+  padding: 40px 1px;
 }
 
 footer {
@@ -86,9 +93,8 @@ li {
 }
 
 #canvas {
-	margin: 10px;
-	padding: 10px;
-	background: cornsilk;
+	background-color: green;
+	Leftmargin: 0;
 	border: thin inset #aaaaaa;
 }
 

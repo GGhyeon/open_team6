@@ -2,28 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap');
 
 
-*{
-	padding: 0;
-	margin: 0;
-}
-
 header {
 	color: black;
 	background-color: white;
 	padding: 20px;
-}
-
-.title{
-	margin-left: 12%;
-	font-family: 'Do Hyeon', sans-serif;
-}
-
-.blank{
-	width: 80%;
-	height: 2px;
-	margin-bottom: 30px;
-	margin-left: 10%;
-	background-color: lightgreen;
 }
 
 section {
@@ -46,36 +28,6 @@ section>div {
 	width: 150px;
 	height: 70px;
 	padding: 10px;
-}
-
-h2{
-	margin-left: 30px;
-	margin-top:  20px;
-	margin-bottom: 15px;
-}
-
-.promotion{
-  padding:0;
-  margin:0;
-	width:100vw;
-  height:100vh;
-}
-
-.video{
-  position: relative;
-	padding-bottom:56.25%;
-	margin-left: 12%;
-	width: 100%;
-	height: 100%;
-  iframe{
-    position: absolute;
-    top: 0;
-    left: 0 ;
-    right: 0;
-    bottom: 0;
-    width:100%;
-    height: 100%;
-  }
 }
 
 ul {
@@ -103,10 +55,21 @@ div.wrapper {
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
 }
 
+#canvas_section {
+	display: block;
+}
+
+#canvas {
+	background-color: green;
+	Leftmargin: 0;
+	border: thin inset #aaaaaa;
+}
+
+
 input {
   background-color:transparent;
   outline: none;
-
+  
   font-family: 'Do Hyeon', sans-serif;
   font-size: 16px;
   padding: 4px 0px 4px 14px;
