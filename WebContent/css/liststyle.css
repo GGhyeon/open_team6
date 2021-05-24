@@ -55,8 +55,9 @@ td{
 }
 
 footer {
-	background-color: white;
-	padding: 20px;
+	background-color: #70C043;
+	padding: 12px;
+	font-family: 'Do Hyeon', sans-serif;
 }
 
 ul {
